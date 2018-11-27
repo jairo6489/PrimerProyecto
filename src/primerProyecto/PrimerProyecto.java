@@ -1,4 +1,4 @@
-package PrimerProyecto;
+package primerProyecto;
 
 import java.util.Scanner;
 
@@ -47,11 +47,11 @@ public class PrimerProyecto {
 	 * Paso 3: Nos devuelve la cadena. */
 
 	public static String readString(String msj) {
-		String s;
+		String st;
 
 		System.out.println(msj + ":");
-		s = keyboard.next();
-		return s;
+		st = keyboard.next();
+		return st;
 	}
 
 	//Lectura de datos numericos de tipo byte
